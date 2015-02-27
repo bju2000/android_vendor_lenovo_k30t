@@ -18,10 +18,6 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     TimeService \
-    qcrilmsgtunnel \
-    imslibrary \
-    qcnvitems \
-    qcrilhook \
     libHevcSwDecoder \
     libtime_genoff \
     libmdmdetect

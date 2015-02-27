@@ -181,6 +181,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/lenovo/k30t/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/lenovo/k30t/proprietary/lib/libvinit.so:system/lib/libvinit.so \
+    vendor/lenovo/k30t/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/lenovo/k30t/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/lenovo/k30t/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/lenovo/k30t/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/lenovo/k30t/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
