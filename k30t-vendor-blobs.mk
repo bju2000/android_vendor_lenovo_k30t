@@ -641,4 +641,5 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lenovo/k30t/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so
+    vendor/lenovo/k30t/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
+    vendor/lenovo/k30t/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar
