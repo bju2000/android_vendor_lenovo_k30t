@@ -31,7 +31,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/app/TimeService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
