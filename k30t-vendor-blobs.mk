@@ -642,7 +642,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
-    vendor/lenovo/k30t/proprietary/appFM2.apk:system/app/FM2.apk \
+    vendor/lenovo/k30t/proprietary/app/FM2.apk:system/app/FM2.apk \
     vendor/lenovo/k30t/proprietary/appFMRecord.apk:system/app/FMRecord.apk \
     vendor/lenovo/k30t/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
     vendor/lenovo/k30t/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar
