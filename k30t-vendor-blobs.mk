@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/k30t/proprietary/bin/cnd:system/bin/cnd \
     vendor/lenovo/k30t/proprietary/bin/crda:system/bin/crda \
-    vendor/lenovo/k30t/proprietary/bin/audiod:system/bin/audiod \
     vendor/lenovo/k30t/proprietary/bin/gptest:system/bin/gptest \
     vendor/lenovo/k30t/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
     vendor/lenovo/k30t/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
@@ -122,8 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lenovo/k30t/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/lenovo/k30t/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lenovo/k30t/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
-    vendor/lenovo/k30t/proprietary/lib/hw/audio_policy.msm8916.so:system/lib/hw/audio_policy.msm8916.so \
     vendor/lenovo/k30t/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/lenovo/k30t/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/lenovo/k30t/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
@@ -146,9 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
     vendor/lenovo/k30t/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
     vendor/lenovo/k30t/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/lenovo/k30t/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
-    vendor/lenovo/k30t/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/lenovo/k30t/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/lenovo/k30t/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/lenovo/k30t/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/lenovo/k30t/proprietary/lib/libbson.so:system/lib/libbson.so \
@@ -183,13 +177,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/lib/libvinit.so:system/lib/libvinit.so \
     vendor/lenovo/k30t/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/lenovo/k30t/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-    vendor/lenovo/k30t/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/lenovo/k30t/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/lenovo/k30t/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lenovo/k30t/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/lenovo/k30t/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/lenovo/k30t/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/lenovo/k30t/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lenovo/k30t/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
     vendor/lenovo/k30t/proprietary/lib/libWnnEngDic.so:system/lib/libWnnEngDic.so \
     vendor/lenovo/k30t/proprietary/lib/libxml2.so:system/lib/libxml2.so \
@@ -632,9 +622,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/lenovo/k30t/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/lenovo/k30t/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/lenovo/k30t/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -642,7 +629,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lenovo/k30t/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
-    vendor/lenovo/k30t/proprietary/appFM2.apk:system/app/FM2.apk \
-    vendor/lenovo/k30t/proprietary/appFMRecord.apk:system/app/FMRecord.apk \
+    vendor/lenovo/k30t/proprietary/app/FM2.apk:system/app/FM2.apk \
+    vendor/lenovo/k30t/proprietary/app/FMRecord.apk:system/app/FMRecord.apk \
     vendor/lenovo/k30t/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
     vendor/lenovo/k30t/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar
